@@ -1,0 +1,10 @@
+a{color:black;}
+h1{font-size: 50px; text-align: center;border-bottom: solid gray; margin: 2px; padding: 20px;}
+ol{font-size: 30px; border-right: 2px solid gray; width: 200px; margin: 0;padding: 40px; padding-left: 60px;}
+#grid{display: grid; grid-template-columns: 150px 1fr;}
+#grid #article{padding-left: 178px;}
+
+@media(max-width:600px) {#grid{display:block;} 
+ol{font-size: 20px; border-right: none; margin: none;padding: 20px; text-align: center; text-decoration: none;}
+#grid #article{padding-left: 0;}
+}
